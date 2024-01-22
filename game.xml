@@ -1,0 +1,16 @@
+<Module>
+  <ModulePrefs title="BFDIA 5b"/>
+  <Content type="html">
+    <![CDATA[ 
+    <link rel="shortcut icon" type="image/x-icon" href="https://cdn.jsdelivr.net/gh/w1thrd/HTML5b-opensocial@latest/visuals/blocks/b0001.svg" />
+	  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/w1thrd/HTML5b-opensocial@latest/style.css" type="text/css"/>
+	  <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/w1thrd/HTML5b-opensocial@latest/5b.js"></script>
+    <div id="center">
+	    <div id="hide-contenteditable">
+        <canvas width="960" height="540" id="cnv" contenteditable="false"></canvas>
+      </div>
+	    <p class="bottomtext">An HTML5 port of Cary Huang's <a href="https://bfdi.tv/5b/">BFDIA 5b</a>. Explore is powered by <a href="https://5beam.zelo.dev/">Zelo101's 5beam</a>.</p>
+    </div>
+    ]]>
+  </Content>
+</Module>
