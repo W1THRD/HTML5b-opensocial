@@ -2161,7 +2161,7 @@ let menu2_3ButtonClicked = -1;
 let levelButtonClicked = -1;
 let showingNewGame2 = false;
 
-let musicSound = new Audio('data/the fiber 16x loop.wav');
+let musicSound = new Audio('https://cdn.jsdelivr.net/gh/w1thrd/HTML5b-opensocial@latest/data/the fiber 16x loop.wav');
 // musicSound.addEventListener('canplaythrough', event => {incrementCounter();});
 
 // Creates an image object was a base64 src.
@@ -2218,11 +2218,11 @@ async function loadingScreen() {
 	ctx.font = '30px Helvetica';
 	ctx.fillText('Loading...', cwidth / 2, cheight / 2);
 
-	let req = await fetch('data/levels.txt');
+	let req = await fetch('https://cdn.jsdelivr.net/gh/w1thrd/HTML5b-opensocial@latest/data/levels.txt');
 	levelsString = await req.text();
 	loadLevels();
 
-	req = await fetch('data/images2.json');
+	req = await fetch('https://cdn.jsdelivr.net/gh/w1thrd/HTML5b-opensocial@latest/data/images2.json');
 	let resourceData = await req.json();
 
 	svgCSBubble = createImage(resourceData['ui/csbubble/dia.svg']);
